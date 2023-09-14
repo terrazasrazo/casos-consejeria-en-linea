@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face { font-family: "Dantina"; src: url("./assets/fonts/dantina.ttf") format('truetype'); }
+@font-face { font-family: "SegoeUI"; src: url("./assets/fonts/seguiemj.ttf") format('truetype'); }
+
+body {
+  background: url('./images/background-consejeria.jpg') no-repeat center center fixed; 
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  @apply text-cc_blue;
+}
+
+h1 {
+  @apply text-cc_gold text-4xl mb-10 leading-10;
+}
+
+h1 > span.text-cc_blue.dantina {
+  font-family: 'Dantina';
+  @apply text-2xl;
+}
+
+h2 {
+  @apply bg-gray-50 rounded text-cc_gold p-4 text-3xl mb-10 leading-10;
+}
+
+h3 {
+  @apply text-2xl text-gray-50 rounded p-2 mb-6;
+}
+
+#audioplayer h1{
+  @apply text-lg;
+}
+
+#audioplayer p._2ybYQ, #audioplayer p._1l2NE {
+  @apply text-sm;
+}
