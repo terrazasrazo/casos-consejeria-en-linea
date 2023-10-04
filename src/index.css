@@ -6,7 +6,7 @@
 @font-face { font-family: "SegoeUI"; src: url("./assets/fonts/seguiemj.ttf") format('truetype'); }
 
 body {
-  background: url('./images/background-consejeria.jpg') no-repeat center center fixed; 
+  background: url('images/background-consejeria.jpg') no-repeat center center fixed; 
   background-size: cover;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   @apply text-cc_blue;

@@ -15,7 +15,7 @@ function App() {
             <img src="public/images/consejeria-cover.png" alt="" />
             <p>
               <a
-                href="http://www.librosoa.unam.mx/handle/123456789/3639"
+                href="pdf/casosconsejeria.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="bg-cc_gold hover:bg-cc_blue text-gray-50 text-xl p-4 inline-block my-6 mb-20 rounded-md"
